@@ -1,0 +1,25 @@
+﻿body {
+	color: maroon;
+	margin:25px;
+}
+h1{
+    color: maroon;
+	font-size :40px;
+	padding-top:10px;
+	padding-left:90px;
+	text-align:center;
+}
+figcaption{
+	color: maroon;
+	font-size :40px;
+}
+figure{
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+}
+img{
+	width : 300px;
+}
+
+

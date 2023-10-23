@@ -1,0 +1,47 @@
+﻿body {
+	color: blue;
+	display: flex;
+	flex-direction: column;
+	font-size :1.25em;
+}
+h2{
+    color: maroon;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+#formDIV{
+	flex-direction:column;
+	flex-basis: auto;
+}
+div{
+	display:flex;
+}
+label{
+	width:150px;
+	margin-bottom: 10px;
+}
+input{
+	margin-bottom:10px;
+	font-size :0.7em;
+}
+.radio{
+	height: 20px;
+	width: 20px;
+	margin-right: 10px;
+}
+#radFem{
+	margin-left:5px;
+}
+#lblMessage{
+	color:maroon;
+	width:250px;
+}
+#bouton {
+	padding:6px 0 6px 0;
+	background:maroon;
+	color:white;
+	width:360px;
+	border-radius:2px;
+	border:none;
+}

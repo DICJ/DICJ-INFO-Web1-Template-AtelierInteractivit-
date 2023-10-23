@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Exercice 6</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="main">
+		<div id="formDIV">
+			<h2>Afficher le genre</h2>
+		    <div><label> Entrez votre nom:</label><input id="txtNom" name="txtNom" type="text"></div>
+			<!-- Case à cocher -->
+			<div><label id="statut">Statut</label>
+				<input class="radio" type="radio" id="radMarie" name="radStatut" checked >Marié
+				<input type="radio" class="radio" id="radConj" name="radStatut">Conjoint de fait
+				<input type="radio" class="radio" id="radCelib" name="radStatut">Célibataire
+			</div>
+			<!-- label affichage -->
+			<label id="lblMessage" name="lblMessage"></label>
+		</div>
+	</div>
+	<!-- Bouton -->
+	<input id="bouton" id="btnAfficher" name="btnAfficher" value="AFFICHER" type="button"> 
+	<script src="script.js"></script> 
+</body>
+</html>
