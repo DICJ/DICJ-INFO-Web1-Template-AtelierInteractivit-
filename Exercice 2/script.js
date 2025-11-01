@@ -1,0 +1,5 @@
+function imgHalloween_onclick()
+{
+	
+
+}
